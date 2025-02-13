@@ -2,7 +2,7 @@ function Home() {
     return (
         <>
             {/* Hero Section */}
-            <div className="w-full min-h-[535px] flex flex-col sm:flex-row justify-between items-center px-6 sm:px-16 py-10">
+            <div className="w-full min-h-[535px] flex flex-col sm:flex-row justify-between items-center px-6 sm:px-16 p-20">
                 {/* Left Content */}
                 <div className="flex flex-col order-2 sm:order-1 text-center sm:text-left">
                     <p className="text-3xl sm:text-4xl md:text-5xl font-bold">Clothes and Shoes</p>

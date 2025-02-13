@@ -32,7 +32,7 @@ function Clothes() {
     };
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-20">
             {/* Women's Clothes */}
             <p className="underline font-bold text-lg">{"Women's Clothes"}</p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-2">

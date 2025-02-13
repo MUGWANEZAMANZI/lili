@@ -22,7 +22,7 @@ function Shoes() {
     ];
 
     return (
-        <div className="p-4">
+        <div className="p-20">
             <p className="underline font-bold text-lg">{"Women's Shoes"}</p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-2">
                 {shoesData.slice(0, 3).map((shoe, index) => (
@@ -50,7 +50,7 @@ function Shoes() {
             </div>
 
             {popupOpen && selectedItem && (
-                <div className="fixed inset-0 bg-white bg-opacity-50 flex justify-center items-center z-50 p-4">
+                <div className="fixed inset-0 bg-white bg-opacity-50 flex justify-center items-center z-50">
                     <div className="bg-white p-5 rounded-lg shadow-lg w-full max-w-xs sm:max-w-sm text-center">
                         <h2 className="text-lg font-semibold">Item Details</h2>
                         <p className="mt-2">🛍️ <strong>{selectedItem.name}</strong></p>

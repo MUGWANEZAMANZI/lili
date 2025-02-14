@@ -7,7 +7,7 @@ function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="bg-gray-900 p-1 shadow-md fixed w-full">
+        <header className="bg-gray-900 p-1 shadow-md fixed w-full dark:bg-gray-900 dark:text-white">
             <nav className="container mx-auto flex items-center justify-between">
                 {/* Logo Section */}
                 <div className="text-white text-2xl font-bold">
@@ -38,7 +38,7 @@ function Header() {
                     </li>
                     <li>
                         <NavLink to="/shoes" className="text-white hover:text-gray-400 no-underline">
-                            Shoes
+                         Shoes
                         </NavLink>
                     </li>
                     <li>
@@ -48,9 +48,12 @@ function Header() {
                             className="p-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500"
                         />
                     </li>
+                    
                     <li className="bg-white p-2 rounded-full">
+                        
                         <img src="/cart.png" alt="cart" width={36} height={36}/>
                     </li>
+                    <li><sup className="text-green-300 text-xl">+6</sup></li>
                 </ul>
             </nav>
 

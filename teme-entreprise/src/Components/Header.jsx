@@ -7,7 +7,7 @@ function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="bg-gray-900 p-1 shadow-md fixed w-full dark:bg-gray-900 dark:text-white">
+        <header className="!bg-gray-900 p-1 shadow-md fixed w-full dark:bg-gray-900 dark:text-white">
             <nav className="container mx-auto flex items-center justify-between">
                 {/* Logo Section */}
                 <div className="text-white text-2xl font-bold">

@@ -1,5 +1,5 @@
 @import "tailwindcss";
-header {
+header,footer {
     background-color: #1a202c !important; /* Tailwind's gray-900 */
   }
   

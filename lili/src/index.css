@@ -1,0 +1,8 @@
+@import "tailwindcss";
+header,footer {
+    background-color: #1a202c !important; /* Tailwind's gray-900 */
+  }
+  sup {
+    color: green
+  }
+  
